@@ -1,0 +1,41 @@
+:"CC24 contest entry
+ClrHome
+ClrDraw
+For(X,1,50
+Output(3,5,"Oxiti8
+Output(4,3,"TIny_Hacker
+End
+For(X,1,50
+Output(6,4,"PRESENT
+End
+ClrHome
+Output(3,4,"JUNGALIA
+Output(6,2,"PRESS ANY KEY
+Repeat getKey
+End
+Menu("JUNGALIA","NEW",1,"LOAD",2,"ABOUT",3,"EXIT",4
+Lbl 1
+SetUpEditor AVE
+{1,0,0,0->|LAVE
+|LAVE(1->L
+|LAVE(2->P
+|LAVE(3->U
+|LAVE(4->O
+Lbl 2
+SetUpEditor AVE
+If not(dim(|LAVE
+{1,0,0,0->|LAVE
+|LAVE(1->L
+|LAVE(2->P
+|LAVE(3->U
+|LAVE(4->O
+Goto A
+Lbl 3
+ClrDraw
+ClrHome
+Disp "
+Lbl 4
+Stop
+Lbl A
+ClrHome
+ClrDraw
