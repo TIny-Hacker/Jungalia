@@ -54,8 +54,21 @@ While K!=21 or K!=105
 	End
 End
 Lbl 1
-
+SetUpEditor AVE
+{1,0,0,0->|LAVE
+|LAVE(1->L
+|LAVE(2->P
+|LAVE(3->U
+|LAVE(4->O
 Lbl 2
+SetUpEditor AVE
+If not(dim(|LAVE
+{1,0,0,0->|LAVE
+|LAVE(1->L
+|LAVE(2->P
+|LAVE(3->U
+|LAVE(4->O
+Goto A
 
 Lbl 3
 ClrDraw
@@ -74,3 +87,9 @@ Text(51,0,"TIny-Hacker
 Pause 
 Goto M
 Lbl 4
+ClrHome
+ClrDraw
+//Lots of DelVars?
+Lbl A
+ClrHome
+ClrDraw
