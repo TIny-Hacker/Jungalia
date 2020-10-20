@@ -54,6 +54,7 @@ While K!=21 or K!=105
 	End
 End
 Lbl 1
+End
 SetUpEditor AVE
 {1,0,0,0->|LAVE
 |LAVE(1->L
@@ -61,6 +62,7 @@ SetUpEditor AVE
 |LAVE(3->U
 |LAVE(4->O
 Lbl 2
+End
 SetUpEditor AVE
 If not(dim(|LAVE
 {1,0,0,0->|LAVE
@@ -71,13 +73,14 @@ If not(dim(|LAVE
 Goto A
 
 Lbl 3
+End
 ClrDraw
 For(X,1,94
 	Line(X,~62,X,~randInt(59,62)
 	Line(X,0,X,~randInt(0,3)
 End
 Text(5,0,"JUNGALIA is Oxiti8 and
-Text(11,0,"TIny-Hacker's enterance
+Text(11,0,"TIny-Hacker's entry
 Text(17,0,"for CC24:Collaborative
 Text(23,0,"Wilderness.
 Text(30,0,"-------------------------
@@ -87,6 +90,7 @@ Text(51,0,"TIny-Hacker
 Pause 
 Goto M
 Lbl 4
+End
 ClrHome
 ClrDraw
 //Lots of DelVars?
